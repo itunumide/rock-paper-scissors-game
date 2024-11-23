@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors game</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <img
+          src="./assets/rock,paper,scissors.jpg"
+          style="border-radius: 10px"
+          alt="rock paper scissors"
+          width="300"
+          height="150"
+        />
+      </div>
+      <div class="score">
+        <h3>player:<span id="playerCount"> 0 </span></h3>
+        <h3>Computer:<span id="computerCount"> 0 </span></h3>
+        <button id="reset">Reset</button>
+      </div>
+      <h1 id="displayMessage">Choose an option to start !</h1>
+      <div id="imageDisplay">
+        </div>
+      <div class="input" > 
+        <img src="assets/la--hand-rock.png" alt="rock" id="rock" class="choice" ></img>
+        <img src="assets/la--hand-paper.png" alt="paper" id="paper" class="choice">
+        <img src="assets/la--hand-scissors.png" alt="scissors" id="scissors" class="choice"></div>
+    </div>
+  </body>
+</html>
